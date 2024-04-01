@@ -2,7 +2,6 @@ import streamlit as st
 from langchain_openai import ChatOpenAI
 import os
 from dotenv import load_dotenv
-#os.environ["OPEN_API_KEY"] =  "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"
 load_dotenv()
 
 def get_openai_response(question):
